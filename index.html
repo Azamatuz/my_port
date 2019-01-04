@@ -9,63 +9,142 @@
     <meta name="author" content="">
     <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
 
-    <title>Sticky Footer Navbar Template for Bootstrap</title>
+    <title>Azamat | CV | Portfolio</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
+    <!-- Font Awesome Icons  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
     <!-- Custom styles for this template -->
-    <link href="css\base.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
   </head>
 
   <body>
-
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+    <header>
+      <nav class="my-3 navbar navbar-expand-md text-uppercase navbar-light">
+        <div class="container-fluid">
+          <button type="button" class="navbar-toggler" data-toggler="collapse" data-target="#myTogglerNav"
+          aria-controls="#myTogglerNav" aria-label="Toggler Navigator">
+          <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <section class="collapse navbar-collapse" id="#myTogglerNav">
+            <div class="navbar-nav ml-auto">
+              <a class="nav-item nav-link" href="#">Home</a>
+              <a class="nav-item nav-link" href="#why">Why me</a>
+              <a class="nav-item nav-link" href="#soft">Soft skills</a>
+              <a class="nav-item nav-link" href="#experiance">experiance</a>
+              <a class="nav-item nav-link" href="#hard">hard skills</a>
+              <a class="nav-item nav-link" href="#projects">projects</a>
+            </div>
+          </section>
+        </div><!-- container -->
+      </nav>
+    </header>
+    <!-- Fixed navbar -->
+
+    <!-- Berow page content -->
+    <div class="container-fluid">
+      <section class="page-header">
+        <div class="row">
+          <section class="col-4">
+            <img src="img/core.png" class="img-fluid" alt="logo">
+          </section>
+          <section class="col-7 offset-1">
+            <div class="row pt-5">
+              <h1>Azamat Uzbekov</h1>
+            </div>
+            <div class="row pt-4">
+              <section class="col-10">
+                <address>
+                  <br><i class="fas fa-map-marker-alt fa-sm px-2"></i> Saskatoon, SK, S7H 5J9
+                  <br><i class="fas fa-phone fa-sm px-2"></i>(639)316-4206
+                  <br><i class="fas fa-envelope fa-sm px-2"></i>asu847@mail.usask.ca
+                </address>
+              </section>
+            </div>
+            <div class="row affiliation-text text-right">
+              <section class="col-11 ">
+                <p>
+                  Master’s Degree
+                  <br>Public Administration
+                  <br>University of Saskatchewan – Saskatoon, Canada
+                  <br>Johnson Shoyama Graduate School of Public Policy
+                  <br>Research interest - complex adaptive systems
+                </p>
+              </section>
+            </div>
+          </section> <!-- col-7  -->
+        </div> <!-- row -->
+       </section><!--  page-header -->
+      </div> <!-- container -->
+
+      <section class="container-fluid">
+        <div class="my-5 row">
+          <div class="offset-4">
+            <img src="img/soft.png" class="img-fluid" alt="soft skills">
+          </div>
+          <div class="col-1 triangle-top">
+          </div>
+          <div class="col-5 red-tag">
+            <h1 class="mt-5 pt-3 font-weight-bold">Soft Skills</h1>
+          </div>
         </div>
-        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 0px;">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-                <div role="separator" class="dropdown-divider"></div>
-                <h6 class="dropdown-header">Nav header</h6>
-                <a class="dropdown-item" href="#">Separated link</a>
-                <a class="dropdown-item" href="#">One more separated link</a>
+        <div class="py-5 row ">
+          <div class="col-3">
+            <div class="card shadow-lg text-center" style="width: 430px;">
+              <div class="mb-5 card-img">
+                <img class="pt-3 img-fluid" src="img/arrows.png" alt="multitasking">
               </div>
-            </li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+              <div class="my-3 card-body">
+                <p class="card-text">Excellent customer service skills with the ability
+                  to work effectively to ensure the customers receive exemplary service.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-8 offset-1">
+            <div class="card shadow-lg text-center" style="width: 830px;">
+              <div class="mb-3 card-img">
+                <img class="pt-3 img-fluid" src="img/flag.png" alt="nail it">
+              </div>
+              <div class="my-3 card-body">
+                <p class="card-text">Deep knowledge of project development with all stages of
+                  the project life cycle; from the understanding customers need and partners capacity,
+                  the specification of product/service, mapping the workflow, and a project chart to manage the work.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="card shadow-lg text-center" style="width: 1280px;">
+              <div class="row">
+                <div class="col-6">
+                  <div class="mb-3 card-img">
+                    <img class="pt-3 img-fluid" src="img/team.png" alt="nail it">
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="mb-3 card-img">
+                    <img class="pt-3 img-fluid" src="img/mentor.png" alt="nail it">
+                  </div>
+                </div>
+              </div>
 
-    <!-- Begin page content -->
-    <div class="container">
-      <div class="page-header">
-        <h1>Sticky footer with fixed navbar</h1>
-      </div>
-      <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body &gt; .container</code>.</p>
-      <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
-    </div>
-
+              <div class="my-3 card-body">
+                <p class="card-text">Organizational and leadership skills strengthened for
+                   over three years by establishing and coordinating a student community with
+                    more than 50 members, including team building, conflict management, strong
+                    community collaboration and events organization capacity.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     <footer class="footer">
       <div class="container">
         <p class="text-muted">Place sticky footer content here.</p>
