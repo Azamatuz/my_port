@@ -62,6 +62,7 @@ address {
 }
 .card-img {
   height: 120px;
+  margin: 20px;
 }
 
 .card-text {
