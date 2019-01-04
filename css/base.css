@@ -22,7 +22,6 @@ body {
 .page-header h1 {
   color: #595959;
   font-size: 96px;
-  font-weight: 300;
 }
 
 .fas {
@@ -70,4 +69,13 @@ address {
   font-weight: 500;
   line-height: 32px;
   margin: 30px;
+}
+
+footer {
+  background-color: #3C444C;
+  height: 100px;
+}
+
+footer a {
+  font-size: 11px;
 }
