@@ -27,7 +27,7 @@ body {
 .fas {
   size:
 }
-address {
+.page-header address {
   color: #424242;
   font-size: 24px;
   line-height: 30px;
@@ -45,6 +45,14 @@ address {
   border-top: 143px solid #D13035;
   border-left: 143px solid transparent;
 }
+
+.triangle-bottom {
+  width: 0;
+  height: 0;
+  border-top: 143px solid #D13035;
+  border-right: 143px solid transparent;
+}
+
 .red-tag {
   background-color: #D13035;
   height: 143px;
@@ -70,7 +78,26 @@ address {
   line-height: 32px;
   margin: 30px;
 }
+.red-point ul {
+  list-style: none;
+}
+.red-point ul li::before {
+  color: red;
+  content: "\2022";
+  font-size: 18px;
+  margin-left: 1em;
+}
+.red-point address {
+  line-height: 24px;
+}
 
+.btn-hire {
+  background-color: #D13035;
+  border-radius: 20px;
+  font-size: 48px;
+  width: 626px;
+  height: 156px;
+}
 footer {
   background-color: #3C444C;
   height: 100px;
