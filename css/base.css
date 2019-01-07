@@ -4,12 +4,6 @@ body {
   color: #161A19;
 }
 
-.active {
-  color: #161A19;
-  text-decoration: underline;
-  border-bottom-color: #D13035;
-}
-
 .nav-link {
   font-size: 14px;
 }
@@ -23,6 +17,9 @@ body {
   color: #595959;
   font-size: 96px;
 }
+@media screen and (min-width: 568px) {
+  .page-header h1 {font-size: 86px;}
+}
 
 .fas {
   size:
@@ -35,8 +32,13 @@ body {
 
 .affiliation-text {
   color: #424242;
+  font-size: 24px;
+  line-height: 31px;}
+
+@media screen and (min-width: 568px){
+.affiliation-text {
   font-size: 31px;
-  line-height: 41px;
+  line-height: 41px;}
 }
 
 .triangle-top {
@@ -60,8 +62,14 @@ body {
 
 .red-tag h1 {
   color: #FFFFFF;
-  font-size: 48px;
-  font-weight: 800;
+  font-size: 28px;
+}
+
+@media screen and (min-width: 868px) {
+  .red-tag h1 {
+    font-size: 48px;
+    font-weight: 800;
+  }
 }
 
 .card {
@@ -104,9 +112,21 @@ body {
 .btn-hire {
   background-color: #D13035;
   border-radius: 20px;
-  font-size: 48px;
-  width: 626px;
-  height: 156px;
+  font-size: 28px;
+  width: 326px;
+  height: 100px;
+}
+@media screen and (min-width: 568px) {
+  .btn-hire {
+    font-size: 48px;
+    width: 426px;
+    height: 156px;}
+}
+@media screen and (min-width: 768px) {
+  .btn-hire {
+    font-size: 48px;
+    width: 626px;
+    height: 156px;}
 }
 footer {
   background-color: #3C444C;
@@ -119,14 +139,25 @@ footer a {
 
 Bootstrap 4 breakpoints
 */
+
 /* Small devices (landscape phones, 544px and up) */
+
 @media (min-width: 544px) {
     .card-text {font-size: 16px;}
+    .btn-hire {
+      font-size: 28px;
+      width: 326px;
+      height: 56px;}
   }
+
 
   /* Medium devices (tablets, 768px and up) */
   @media (min-width: 768px) {
     .card-text {font-size: 20px;}
+    .btn-hire {
+      font-size: 48px;
+      width: 626px;
+      height: 156px;}
   }
 
   /* Large devices (desktops, 992px and up) */
@@ -137,5 +168,3 @@ Bootstrap 4 breakpoints
   @media (min-width: 1200px) {
     .class-name {font-size: 48px;}
   }
-
-  /*
