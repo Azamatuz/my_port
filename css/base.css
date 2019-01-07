@@ -65,7 +65,7 @@ body {
 }
 
 .card {
-  height: auto;
+  height: auto  ;
 }
 .card-img {
   height: 120px;
@@ -77,6 +77,11 @@ body {
   font-weight: 500;
   line-height: 32px;
   margin: 30px;
+}
+
+.red-point img{
+  max-height: 150px;
+
 }
 .red-point ul {
   list-style: none;
