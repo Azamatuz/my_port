@@ -65,7 +65,7 @@ body {
 }
 
 .card {
-  height: auto  ;
+
 }
 .card-img {
   height: 120px;
@@ -80,7 +80,8 @@ body {
 }
 
 .red-point img{
-  max-height: 150px;
+  margin: 2rem;
+  max-height: 100px;
 
 }
 .red-point ul {
@@ -115,3 +116,26 @@ footer {
 footer a {
   font-size: 11px;
 }
+
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+    .card-text {font-size: 16px;}
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .card-text {font-size: 20px;}
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    . {font-size: 40px;}
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .class-name {font-size: 48px;}
+  }
+
+  /*
