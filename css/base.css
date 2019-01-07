@@ -65,7 +65,7 @@ body {
 }
 
 .card {
-  height: 440px;
+  height: auto;
 }
 .card-img {
   height: 120px;
