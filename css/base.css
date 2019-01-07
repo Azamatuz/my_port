@@ -96,6 +96,10 @@ body {
   line-height: 24px;
 }
 
+.logos img {
+  margin: 2rem;
+}
+
 .btn-hire {
   background-color: #D13035;
   border-radius: 20px;
