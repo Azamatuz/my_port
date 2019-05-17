@@ -143,11 +143,6 @@ footer a {
   font-size: 11px;
 }
 
-Bootstrap 4 breakpoints
-*/
-
-/* Small devices (landscape phones, 544px and up) */
-
 @media (min-width: 544px) {
     .card-text {font-size: 16px;}
     .btn-hire {
